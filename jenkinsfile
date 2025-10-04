@@ -2,7 +2,7 @@ pipeline {
    agent any
 
    environment {
-      IMAGE_NAME = "singhsajal/ecommerce-authservice"
+      IMAGE_NAME = "singhsajal/ecommerce-searchservice"
       DOCKERHUB_CREDENTIALS_ID = 'dockerhub' // Jenkins secret ID
    }
 
